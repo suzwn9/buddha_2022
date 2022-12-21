@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 10px;
+    
+}
+
+
+@media (max-width: 800px){
+    body{1
+       
+    }
+
+    .bg1{
+        height: 100vh;
+        width: 1000px;
+        background: linear-gradient(180deg, rgba(204, 221, 226, 0) 0%, #BAD7E0 32.81%, #A8D1DE 64.58%, rgba(168, 209, 222, 0.319328) 85.94%, rgba(168, 209, 222, 0) 100%);}
+    
+    }
+
+
+
+
+/*
+
+@media screen and (max-width: 1000px)
+{
+
+    *{
+        font-size: 5px;
+    }
+
+    .container{
+        width: 640px;
+        height: 100%;
+        margin: 0 auto;
+
+    }
+    .bg1{
+        width: 800px;
+    }
+    #p1_box{ width: 800px;
+
+
+    }
+    .p1_video{width: 80%;}
+    .p1_img{
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    }
+    .p1_text{    position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);;}
+
+    .bg2{width: 640px;}
+    .p2_box{width: 800px}
+    #p2_text{width: 20%; position: absolute;
+    top: -30rem;}
+
+    .bg3{width: 640px;}
+    .p3_box{width: 100%;}
+    #jeol2{width: 40%;
+    left: 30%;}
+    .pkd{width: 5%;}
+    #p3_text{width: 50%;}
+    
+    .p4_box{ width: 100%;}
+    .blue_Y{ width: 20%;}
+    .yellow_Y{width: 30%;}
+    .red_Y{width: 30%;}
+    
+    }
+    
+*/
+
+@font-face {
+    font-family: 'KCC-Kimhwanki';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202@1.0/KCC-Kimhwanki.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+#p1_box{
+    width: 1220px;
+    margin: 0 auto;
+}
+
+
+
+
+.bg1{
+    margin: 0 auto;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+.bg2{
+
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(180deg, rgba(204, 221, 226, 0) 0%, #BAD7E0 32.81%, #A8D1DE 64.58%, rgba(168, 209, 222, 0.319328) 85.94%, rgba(168, 209, 222, 0) 100%);}
+
+
+.bg3{
+
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(180deg, rgba(221, 224, 255, 0) 23.55%, rgba(162, 131, 250, 0.77) 60.94%, rgba(252, 50, 62, 0.32) 84.37%, rgba(252, 12, 12, 0) 100%);
+
+}
+
+.bg4{
+
+    position: relative;
+    height: 2595px;;
+    width: 100vw;
+    background: linear-gradient(179.76deg, rgba(84, 67, 67, 0) 2.82%, rgba(71, 52, 65, 0.36) 12.52%, rgba(59, 55, 79, 0.68) 22.22%, rgba(55, 56, 84, 0.87) 31.92%, #343A57 41.61%, rgba(41, 49, 79, 0.953297) 51.31%, rgba(44, 54, 86, 0.92972) 61.01%, rgba(44, 56, 87, 0.82) 75.05%, rgba(14, 20, 35, 0.4) 90.1%, rgba(14, 20, 35, 0) 99.79%);
+}
+
+
+video{
+    height: 100vh;
+    width: 1220px;
+    
+}
+
+.p1_video{
+    position: relative;
+    overflow: hidden;
+}
+
+.p1_img{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#jeol1{
+    position: relative;
+    top: 17rem;
+}
+
+.p1_text{
+    position: absolute;
+    font-family: 'KCC-Kimhwanki';
+    font-size: 2.5rem;
+    top: 50rem;
+    left: 51%;
+    transform: translate(-50%, -50%);
+}
+
+.p2_box{
+    width: 1220px;
+    position: relative;
+    margin: 0 auto;}
+
+#lotus{
+    position: relative;
+    padding: 15rem;
+    margin-top: 10rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    left: 10rem;
+
+
+}
+
+#p2_text{
+    position: absolute;
+    font-family: 'KCC-Kimhwanki';
+    font-size: 2.9rem;
+    top: 65rem;
+    left: 10rem;
+    line-height: 3.8rem;
+    text-align: center;
+    color: rgb(56, 56, 56);
+}
+
+.p3_box{
+    position: relative;
+    width: 1220px;
+
+    margin: 0 auto;
+}
+
+#jeol2{
+    position: relative;
+    left: -10rem;
+    padding: 5rem;
+    margin-top: 10rem;
+}
+
+.pkd{
+    position: absolute;
+    top: 56.5rem;
+    left: 77.3rem;
+}
+
+img.pkd{
+    animation: rotate_image 3s linear infinite; 
+    transform: rotateX('10deg');
+
+}
+
+@keyframes rotate_image{
+    100% {
+        transform: rotate(15deg);
+    }
+}
+
+#p3_text{
+    position: absolute;
+    font-family: 'KCC-Kimhwanki';
+    font-size: 2.8rem;
+    top: 73rem;
+    left: 46rem;
+    line-height: 4rem;
+    text-align: center;
+}
+
+.p4_box{
+    position: relative;
+    width: 1220px;
+    margin: 0 auto;
+}
+
+.blue_Y{
+    position: absolute;
+    top: 30rem;
+    left: 60rem;
+}
+
+.yellow_Y{
+    position: absolute;
+    top: 50rem;
+    left: 15rem;
+}
+
+.red_Y{
+    position: absolute;
+    top: 90rem;
+    left: 55rem;
+}
+
+
+.blink1{
+    -webkit-animation: blink 0.7s ease-in-out infinite alternate;
+    -moz-animation: blink 0.7s ease-in-out infinite alternate;
+    animation: blink 0.7s ease-in-out infinite alternate;
+  }
+  
+  .blink{
+    -webkit-animation: blink 0.5s ease-in-out infinite alternate;
+    -moz-animation: blink 0.5s ease-in-out infinite alternate;
+    animation: blink 0.5s ease-in-out infinite alternate;
+  }
+
+  .blink2{
+    -webkit-animation: blink 1s ease-in-out infinite alternate;
+    -moz-animation: blink 1s ease-in-out infinite alternate;
+    animation: blink 1s ease-in-out infinite alternate;
+  }
+
+
+
+  @-webkit-keyframes blink{
+    0% {opacity: 0;}
+    80% {opacity: 1;}
+  }
+  
+  @-moz-keyframes blink{
+    0% {opacity: 0;}
+    80% {opacity: 1;}
+  }
+  
+  @keyframes blink{
+    0% {opacity: 0;}
+    80% {opacity: 1;}
+  }
+
+
+
+
+#lastimg{
+    position: relative;
+    left: 5rem;
+    top: 130rem;
+    padding: 23rem;
+
+}
+
+#p4_text1{
+    position: absolute;
+    font-family: 'KCC-Kimhwanki';
+    font-size: 2.8rem;
+    top: 65rem;
+    left: 70rem;
+    line-height: 4rem;
+    color: rgb(255, 255, 255);
+
+}
+
+#p4_text2{
+    position: relative;
+    top: 3rem;
+    text-align: center;
+    font-family: 'KCC-Kimhwanki';
+    font-size: 2.8rem;
+    color: rgb(255, 255, 255);
+    line-height: 4rem;
+}
+
+#last_text{
+    position: relative;
+    top: 107rem;
+    text-align: center;
+    font-family: 'KCC-Kimhwanki';
+    font-size: 2.5rem;
+
+    line-height: 4rem;
+}
+
+#copy{
+    position: relative;
+    top: 112rem;
+    text-align: center;
+    font-family: 'KCC-Kimhwanki';
+    font-size: 2rem;
+    color: rgb(192, 191, 191);
+}
+
+.scrollBox{
+    opacity: 0;
+    transition-duration: 0.5s;
+
+}
+
+.scrollBox.show{
+    opacity: 1;
+}
+
+.scrollDiv{
+    opacity: 0;
+}
